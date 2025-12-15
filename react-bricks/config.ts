@@ -11,9 +11,9 @@ const config: types.ReactBricksConfig = {
   bricks,
   pageTypes,
   customFields: [],
-  logo: '/logo.webp',
+  logo: '/edinburgh_logo.png',
   loginUI: {
-    logo: '/logo.webp',
+    logo: '/edinburgh_logo.png',
     logoWidth: 35,
     logoHeight: 35,
     sideImage: '/edinburgh_homescreen.jpg',
