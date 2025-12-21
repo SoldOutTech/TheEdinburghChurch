@@ -1,5 +1,6 @@
 import { ThemeProvider } from 'next-themes'
 import type { AppProps } from 'next/app'
+import Head from 'next/head'
 
 import ReactBricksApp from '../components/ReactBricksApp'
 
@@ -13,6 +14,9 @@ const MyApp = (props: AppProps) => {
       enableSystem={false}
       defaultTheme="light"
     >
+      <Head>
+        <link rel="icon" href="/favicon.png" type="image/png" />
+      </Head>
       <ReactBricksApp {...props}></ReactBricksApp>
     </ThemeProvider>
   )
